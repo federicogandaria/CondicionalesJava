@@ -1,4 +1,4 @@
-////La video tienda que presta sus servicios de alquiler de películas a los usuarios del barrio el Porvenir,
+//La video tienda que presta sus servicios de alquiler de películas a los usuarios del barrio el Porvenir,
 //// requiere de una aplicación que permita registrar el alquiler de las películas que adquieren sus usuarios.
 //// Para cada usuario se debe permitir la opción de alquilar película
 //// , consultar películas disponibles y recibir película en la video
@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class CondicionalesRetoO2 {
+public class CondicionalesReto2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -32,7 +32,7 @@ public class CondicionalesRetoO2 {
 
 
                 var respuesta = sc.next();
-                 respuesta = respuesta.toUpperCase().trim();
+                respuesta = respuesta.toUpperCase().trim();
 
 
                 if(respuesta.equals("SI") ){
@@ -45,6 +45,6 @@ public class CondicionalesRetoO2 {
             }
 
 
-    }
+        }
 
     }    }
